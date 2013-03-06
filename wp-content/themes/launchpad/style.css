@@ -1,0 +1,616 @@
+/* LookoutGaming Stylesheet */
+
+@font-face { font-family: Rockwell; src: url('fonts/Rockwell.otf'); } 
+
+* {
+	font-family: Lucida Sans, Arial, Sans-Serif;
+}
+
+#wrapper{
+	height:100%;
+	width: 100%;
+}
+
+.logo{
+	width:550px;
+	display:block;
+	margin:0 auto;	
+}
+
+#homeHeader{
+	background: #222;
+	padding:0px 0px 125px 0px;
+	color:#fff;
+	height:150%;
+	width:100%;
+	margin:0px;
+}
+
+#homeHeader .row{
+	background:url('./images/home_bg.png') no-repeat;
+}
+
+#homeHeader .logo{
+	margin-top:125px;
+}
+
+#homeHeader .logoSmall{
+	margin-top:25px;
+	width:110%;
+	display:block;
+}
+
+.page-id-2{
+	background:#222;
+}
+
+#pageHeader{
+	background:#222;
+	padding-bottom:25px;
+	color:#fff;
+}
+
+#pageHeader .logo{
+	margin:25px auto 0px;
+}
+
+#pageHeader #homeStrapline{
+	margin-top:10px;
+	font-size:26px;
+	
+}
+
+#blogHeader{
+	background:#222;
+	padding-bottom:125px;
+	color:#fff;
+	padding:0px 0px 30px 0px;
+}
+
+#blogHeader .logo {
+	margin-top:25px !important;
+}
+
+.blogHeader h2{
+	font-family:Rockwell;
+	font-size:24px;	
+}
+
+.blogHeader a{
+	color:#fff !important;	
+}
+
+.blogHeader a:hover{
+	color:#ccc !important;	
+}
+
+.blogHeader li a{
+	color:#fff !important;	
+}
+
+.blogHeader li a:hover{
+	color:#ccc !important;	
+}
+
+.blogHeader li{
+	line-height:20px;	
+}
+
+#blogStrapline{
+	font-size:24px;
+	color:#fff;
+	font-family: Rockwell;
+	letter-spacing:-1px;
+	text-align:center;
+	margin:10px 0px 20px 0px;
+	text-shadow:-2px -2px 1px black;
+}
+
+#blogStrapline em{
+	color:#ffff00;
+}
+
+.blogDividerBottom{
+	width:100%;
+	border-top:1px solid #000;
+	max-width:750px;
+	display:block;
+	margin:0 auto;
+}
+
+.blogDividerTop{
+	width:100%;
+	border-top:1px solid #717171;
+	max-width:750px;
+	display:block;
+	margin:0 auto;
+	
+}
+
+.facebook{
+	background:url('./images/social_facebook.png') no-repeat;	
+	height:30px;
+	width:30px;
+	display:block;
+	overflow:hidden; 
+	float:left;
+	margin-right:10px;
+}
+
+.facebook:hover{
+	background-position-y:-30px;	
+}
+
+.twitter{
+	background:url('./images/social_twitter.png') no-repeat;	
+	height:30px;
+	width:30px;
+	display:block;
+	overflow:hidden; 
+	float:left;
+	margin-right:10px;	
+}
+
+.twitter:hover{
+	background-position-y:-30px;	
+}
+
+.linkedin{
+	background:url('./images/social_linkedin.png') no-repeat;	
+	height:30px;
+	width:30px;
+	display:block;
+	overflow:hidden; 
+	float:left;
+}
+
+.linkedin:hover{
+	background-position-y:-30px;	
+}
+
+
+
+.logoBlog{
+	background:url('./images/lookoutgaming_logo.png') no-repeat;
+	width:550px;
+	height:60px;
+	margin:0 auto;
+	display:block;
+}
+
+
+
+#homeStrapline{
+	color:#fff;
+	font-family: Rockwell;
+	font-size:31px;
+	text-align:center;
+	letter-spacing:-2px;
+	margin-top:80px;
+	text-shadow:-2px -2px 1px black;
+}
+
+#homeStrapline em{
+	color:#ffff00;
+	font-family: Rockwell;
+}
+
+
+#homeStraplineSub{
+	font-size:24px;
+	color:#fff;
+	font-family: Rockwell;
+	letter-spacing:-2px;
+	text-align:center;
+	margin:20px 0px 60px 0px;
+	text-shadow:-2px -2px 1px black;
+}
+
+#homeRSS{
+	display:block;
+	width:340px;
+	margin:0 auto;
+}
+
+#homeArrow{
+	background:url('./images/arrow.png') no-repeat left center;
+	width:75px;
+	height:100px;
+	position:absolute;
+	margin-left:20%;
+	
+}
+
+#homeRSS input{
+	border:none;
+	border-radius: 15px !important;
+    padding-left:10px;
+    width:302px;
+    margin-left:10px;
+}
+
+#inputRSS{
+	-moz-box-shadow:    inset 0 5px 5px #ccc;
+    -webkit-box-shadow: inset 0 5px 5px #ccc;
+    box-shadow:         inset 0 5px 5px #ccc;
+    font-style:italic;
+}
+
+#subscribeRSS{
+	font-family: Rockwell;
+	font-size:25px;
+	font-style: normal;
+	background:none;
+	border:none;
+	-moz-box-shadow:    none;
+    -webkit-box-shadow: none;
+    box-shadow:         none;
+    color: #ffff00;
+    padding:0px;
+    display:block;
+    padding:0px;
+}
+
+#formRSSBelow{
+	color:#fff;
+	font-family: Rockwell;
+	font-size:16px;
+	text-align:center;
+	clear:both;
+}
+
+#formRSSBelow a{
+	color:#ffff00;
+}
+
+
+
+
+
+
+.current_page_item{
+	background:url('images/indicator_home.png') no-repeat center top !important;
+	background-position-y: -30px;
+}
+
+.page-id-2 .current_page_item{
+//	background:url('images/indicator_home.png') no-repeat center top;
+}
+
+
+.current_page_item a{
+	color:#000 !important;
+}
+
+#pageContents{
+	background:url('images/header_bg.png') repeat-x #fff;
+	min-height:100px;
+	font-family: Lucida Sans !important;
+	padding-bottom:140px;
+	padding-top:40px;
+}
+
+#pageContents .row{
+	font-family: Lucida Sans !important;
+}
+
+#pageContents h1{
+	font-family: Rockwell;
+	font-size: 36px;
+	color:#000;
+	letter-spacing: -2px;
+	text-align:center;
+	padding: 20px 0px 10px 0px;
+	font-weight:normal;
+}
+
+#pageContents h2{
+	font-size:18px;
+}
+
+#pageContents h3{
+	font-size:14px;
+	margin-top:30px;
+}
+
+#pageContents .intro{
+	margin-top:40px;
+	line-height:24px;
+	text-align:center;
+	font-size:16px;
+	font-family: Lucida Sans, Arial;
+}
+
+
+.profileImg{
+	float:left;
+	margin-right:20px;
+	margin-top:55px;
+	margin-bottom:10px;
+}
+
+.founder{
+	clear:both;
+	padding-bottom:20px;
+}
+
+
+/* Blog Stuff */
+
+#primary{
+	padding-top:20px;
+	padding-bottom:60px;
+	background:url('images/header_bg.png') repeat-x #fff;
+}
+
+.title{
+	
+	height:45px;
+	margin:20px 0px 20px;
+}
+
+.openingDivider{
+	background:url('images/divider_up.png') no-repeat center bottom;
+	height:45px;
+}
+
+
+
+
+.theTitle{
+	font-family:Rockwell;
+	font-size:20px;
+	color:#000;
+	float:left;
+}
+
+.theTitle a{ 
+	font-family:Rockwell !important;
+}
+
+.theDate{
+	float:right;
+	font-style:italic;
+	font-family:Rockwell;
+	font-size:16px;
+	color:#666666;
+}
+
+.closingDivider{
+	border-top: 2px solid #e5e5e5;
+	height:45px;
+	margin:20px 0px 20px;
+}
+
+
+/* About Page */
+
+.founder strong{
+	font-size:16px;
+}
+
+#divider{
+	width:806px;
+	margin: 10px auto 10px;
+	display:block;
+}
+
+/* Contact Page */
+
+.submitButton{
+	background:#333;
+	width:100% !important;
+	padding:10px 20px 10px 20px;
+	text-align:center;
+	border-radius: 10px;
+	color:yellow;
+	border:none;
+	font-size:16px;
+}
+
+/* Careers Page */
+
+.openingTitle h3{
+	font-size:18px !important;
+	font-weight:bold;
+	margin-top:10px !important;
+	padding-top:0px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	font-family: Rockwell;
+	
+}
+
+.openingTitle{
+	font-family:Lucida Sans, Arial;
+	margin-bottom:20px;
+}
+
+.alignLeft{
+	text-align:left !important;
+}
+
+.alignCenter{
+	text-align:center !important;	
+}
+
+.noSpace{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+
+.quote{
+	line-height:24px;
+	font-style: italic;
+	font-size:16px;
+	margin-bottom:30px;
+	margin-top:20px;
+	font-family: Lucida Sans, Arial;
+}
+
+.jobLocation{
+	margin-top:20px;
+}
+
+.apply{
+	background:#333;
+	width:200px !important;
+	padding:10px 20px 10px 20px;
+	text-align:center;
+	border-radius: 10px;
+}
+
+.apply a{
+	color:yellow;
+}
+
+.job-apply-table{
+	border:none !important;
+}
+
+.job-apply-table td{
+	background:none !important;
+}
+
+.page-id-8 h3{
+	font-size:20px !important;
+	border-bottom:2px solid #333;
+	padding-bottom:10px;
+}
+
+.page-id-8 table tbody tr:nth-child(even){
+	background:none !important;
+}
+
+.button-primary{
+	background:#333;
+	width:100% !important;
+	padding:10px 20px 10px 20px;
+	text-align:center;
+	border-radius: 10px;
+	color:yellow;
+	border:none;
+	font-size:14px;
+}
+
+.button-primary a{
+	color:yellow;
+}
+
+/* Comments */
+
+.form-allowed-tags{
+	display:none;	
+}
+
+#respond .required{
+	position:relative;
+}
+
+#respond{
+	padding-bottom:50px;	
+}
+
+.commentlist{
+	list-style:none;	
+}
+
+#comments, #reply-title{
+	font-family:Rockwell;
+	font-size:24px;	
+}
+
+#reply-title{
+	padding-top:20px;	
+}
+
+.comment-reply-link{
+	background:#333;
+	width:100% !important;
+	padding:5px 40px 5px 40px;
+	text-align:center;
+	border-radius: 10px;
+	color:yellow;
+	border:none;
+	font-size:14px;
+}
+
+a.comment-reply-link:hover{
+	color:yellow;
+	background:#000;
+}
+
+#respond #submit{
+	background:#333;
+	width:100% !important;
+	padding:10px 40px 10px 40px;
+	text-align:center;
+	border-radius: 10px;
+	color:yellow;
+	border:none;
+	font-size:14px;
+}
+
+.comment{
+	margin-bottom:40px;	
+}
+
+#respond label{
+	float:left;	
+}
+
+
+/* Footer stuff */
+
+#footerLine{
+	border-top:5px solid #000000;
+	width:100%;
+	position:fixed;
+	bottom:85px;
+}
+
+#footerShadow{
+	width:100%;
+	position:fixed;
+	bottom:90px;
+	height:35px;
+	background:url('./images/footer_shadow.png') repeat-x;
+}
+
+#footer{
+	position:fixed;
+	bottom:0px;
+	height:85px;
+	width:100%;
+	background:url('./images/footer_bg.png') repeat-x;
+	text-align:center;
+	z-index: 1000;
+}
+
+#footer ul{
+	list-style:none;
+	margin:0 auto;
+	width:670px;
+	display:block;
+	
+}
+
+#footer ul li{
+	float:left;
+	line-height:80px;
+}
+
+#footer ul li a{
+	padding:0px 35px 0px 35px;
+	
+	color:#fff;
+	font-family: Rockwell;
+	color:#666666;
+	font-size:24px;
+	text-shadow:-1px -1px 1px #ffffff;
+}
+
+#footer ul li a:hover{
+	color:#000;
+}

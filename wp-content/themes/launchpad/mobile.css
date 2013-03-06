@@ -1,0 +1,87 @@
+/* LookoutGaming mobile stylesheet */
+
+#mobileMenu{
+	position:fixed;
+	width:100%;
+	bottom:0px;
+	height:50px;
+	text-align:center;
+	font-family:Arial;
+	width:100%;
+	border-top:3px solid #333;
+	background: #ffff00; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffff00 1%, #ffff00 52%, #ffff00 55%, #fff600 57%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffff00), color-stop(52%,#ffff00), color-stop(55%,#ffff00), color-stop(57%,#fff600)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffff00 1%,#ffff00 52%,#ffff00 55%,#fff600 57%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffff00 1%,#ffff00 52%,#ffff00 55%,#fff600 57%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffff00 1%,#ffff00 52%,#ffff00 55%,#fff600 57%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffff00 1%,#ffff00 52%,#ffff00 55%,#fff600 57%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff00', endColorstr='#fff600',GradientType=0 ); /* IE6-9 */
+
+}
+
+a.menuItem{
+	padding:16px 10px 18px 0px;
+	display:block;
+	color:#000;
+	font-weight:normal;
+	font-size:16px;
+	text-align:center;
+	text-shadow: rgba(56,56,56,0.85);
+	font-family: Rockwell;
+}
+
+#mobileMenu .three.mobile-one.columns{
+	border-left:1px solid #FCEF00;
+}
+
+#mobileShadow{
+	width:100%;
+	position:fixed;
+	bottom:50px;
+	height:35px;
+	background:url('./images/footer_shadow.png') repeat-x;
+}
+
+#homeMobile #inputRSS{
+	display:block;
+	width:280px !important;
+	margin:0 auto;	
+}
+
+#homeMobile #subscribeRSS{
+	margin:0px;
+	padding:0px;
+}
+
+#homeMobile #homeRSS{
+	padding:0px;
+	margin:0px;
+	width:300px;
+}
+
+#homeMobile{
+	padding-bottom:200px;
+}
+
+#homeMobile .subHeading, #homeMobile .subHeading2{
+	font-family: Rockwell;
+}
+
+#homeMobile .subHeading{
+	font-size:18px;
+	text-align:center;
+	margin:30px 0px 20px 0px;
+}
+
+#homeMobile .subHeading em{
+	font-family: Rockwell;
+	font-style:italic;
+	color:#ffff00;
+}
+
+#homeMobile .subHeading2{
+	font-size:14px;
+	text-align:center;
+	margin:0px 0px 20px 0px;
+}
